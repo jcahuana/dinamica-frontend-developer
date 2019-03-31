@@ -1,2 +1,2 @@
-# dinamica-frontend-developer
-Ejercicios en Javascript
+# Dinámica FrontEnd Developer
+Desarrollo de 3 tres ejercicios de Javascript

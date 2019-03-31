@@ -13,7 +13,7 @@ const OrderList = (function () {
       if (_number.toString().length === 1) {
         return _number;
       }
-      // Para los número que tienen mas de una cifra
+      // Para los número que tienen más de una cifra
       else {
 
         // Suma los dígitos

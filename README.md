@@ -1,2 +1,2 @@
 # Dinámica FrontEnd Developer
-Desarrollo de 3 tres ejercicios de Javascript
+Desarrollo de 3 ejercicios de Javascript

@@ -97,10 +97,10 @@ const OrderList = (function () {
     // Proceso principal para ordenar números
     init: function (_inputList) {
       data.inputList = _inputList;
-      methods.orderNumbers();
-
-      // Muestra la lista ordenada
-      console.log(data.orderedList);
+      if (_inputList.length) {
+        methods.orderNumbers();
+      }
+      
     }
   };
 
@@ -108,6 +108,9 @@ const OrderList = (function () {
   return {
     init: (_inputList) => {
       methods.init(_inputList)
+    },
+    getOrderedList: () => {
+      return data.orderedList;
     }
 	};
 
@@ -115,3 +118,5 @@ const OrderList = (function () {
 
 const inputList = [56,65,74,100,99,68,86,180,90];
 OrderList.init(inputList);
+
+console.log('RESULT:', OrderList.getOrderedList());

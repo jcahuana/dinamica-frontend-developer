@@ -1,6 +1,6 @@
 function getValue (_object, _search, _defaultValue) {
 
-  // Busco la cantidad de valores a buscar
+  // Lista de llaves a buscar
   const keyList = _search.toString().split('.');
 
   let position = 0;
